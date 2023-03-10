@@ -1,4 +1,5 @@
 from unittest.mock import MagicMock
+
 import pytest
 from dao.director import DirectorDAO
 from dao.model.director import Director

@@ -1,8 +1,8 @@
-from flask_restx import Resource, Namespace
-from flask import request
 from dao.model.genre import GenreSchema
-from implemented import genre_service
 from decorators import admin_required, auth_required
+from flask import request
+from flask_restx import Resource, Namespace
+from implemented import genre_service
 
 genre_ns = Namespace('genres')
 

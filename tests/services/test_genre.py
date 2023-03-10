@@ -1,4 +1,5 @@
 from unittest.mock import MagicMock
+
 import pytest
 from dao.genre import GenreDAO
 from dao.model.genre import Genre

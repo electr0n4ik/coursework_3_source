@@ -1,8 +1,8 @@
 from project.dao.base import BaseDAO
-from project.models import Genre
 from project.models import Director
-from project.models import User
+from project.models import Genre
 from project.models import Movie
+from project.models import User
 
 
 class GenresDAO(BaseDAO[Genre]):

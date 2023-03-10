@@ -1,7 +1,8 @@
 from unittest.mock import MagicMock
+
 import pytest
-from dao.movie import MovieDAO
 from dao.model.movie import Movie
+from dao.movie import MovieDAO
 from service.movie import MovieService
 
 

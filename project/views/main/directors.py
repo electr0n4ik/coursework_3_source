@@ -1,8 +1,8 @@
-from flask_restx import Resource, Namespace
-from flask import request
 from dao.model.director import DirectorSchema
-from implemented import director_service
 from decorators import admin_required, auth_required
+from flask import request
+from flask_restx import Resource, Namespace
+from implemented import director_service
 
 director_ns = Namespace('directors')
 

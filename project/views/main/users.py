@@ -1,7 +1,7 @@
+from dao.model.user import UserSchema
+from decorators import admin_required, auth_required
 from flask import request
 from flask_restx import Resource, Namespace
-from decorators import admin_required, auth_required
-from dao.model.user import UserSchema
 from implemented import user_service
 
 user_ns = Namespace('users')

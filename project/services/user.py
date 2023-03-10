@@ -1,9 +1,10 @@
-import hmac
-
-from project.dao.user import UserDAO
 import base64
 import hashlib
+import hmac
+
 from constants import PWD_HASH_SALT, PWD_HASH_ITERATIONS
+
+from project.dao.user import UserDAO
 
 
 class UserService:

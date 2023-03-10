@@ -1,7 +1,8 @@
 import calendar
 import datetime
-from constants import SECRET, ALGO, TOKEN_EXPIRE_MINUTES, TOKEN_EXPIRE_DAYS
+
 import jwt
+from constants import SECRET, ALGO, TOKEN_EXPIRE_MINUTES, TOKEN_EXPIRE_DAYS
 from flask_restx import abort
 from service.user import UserService
 
