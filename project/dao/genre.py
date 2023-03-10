@@ -1,4 +1,4 @@
-from dao.model.genre import Genre
+from project.models import Genre
 
 
 class GenreDAO:
